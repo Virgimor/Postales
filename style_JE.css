@@ -1,0 +1,50 @@
+.foto {
+    float: left;
+    width: 29%;
+    margin-top: 3%;
+    margin-left: 19%;
+
+}
+
+
+.texto {
+    float: right;
+    width: 25%;
+    margin-top: 2%; 
+    margin-right: 23%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:no-repeat center center fixed;
+    background-size: contain;
+    background-image: url(img/plantilla2.png);
+}
+.santuario{
+    width: 100%;
+}
+footer{
+    margin: 2%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.From {
+    float: left;
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.To{
+    float: right;
+    display:flex;
+    margin-right: 20%;
+    margin-top: 4%;
+}
+.contenido-carta::first-letter{
+    font-size: 40px;
+}
+.contenido-carta{
+    font-size: 20px;
+}
